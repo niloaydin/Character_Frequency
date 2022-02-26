@@ -9,7 +9,9 @@ function frequency(message) {
       }
     });
     return map;
+  } else {
+    throw new Error("You need to pass an array");
   }
 }
-
+console.log(frequency());
 module.exports = frequency;
