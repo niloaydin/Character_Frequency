@@ -1,4 +1,4 @@
-function frequency(message) {
+function frequencyOfArray(message) {
   if (Array.isArray(message) === true) {
     const map = {};
     message.forEach((item) => {
@@ -13,5 +13,5 @@ function frequency(message) {
     throw new Error("You need to pass an array");
   }
 }
-console.log(frequency());
-module.exports = frequency;
+
+module.exports = frequencyOfArray;
