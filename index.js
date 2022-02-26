@@ -12,6 +12,4 @@ function frequency(message) {
   }
 }
 
-console.log(frequency([12234234234, 24423423, 2342342]));
-
 module.exports = frequency;
