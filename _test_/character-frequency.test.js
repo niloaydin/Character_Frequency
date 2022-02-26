@@ -9,3 +9,8 @@ it("Should get the frequency of the stringed elements in an array", () => {
   const freqOfString3 = frequency(["hi", "how", "are", "you", "?"]);
   expect(freqOfString3).toEqual({ hi: 1, how: 1, are: 1, you: 1, "?": 1 });
 });
+
+it("Should throw an error when it's not given an array", () => {
+  const freqOfString4 = frequency(["hi how are you?"]);
+  expect(freqOfString4).toEqual({ "hi how are you?": 1 });
+});
