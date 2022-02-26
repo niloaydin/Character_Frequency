@@ -1,0 +1,29 @@
+{
+  "name": "character_frequency",
+  "version": "1.0.0",
+  "description": "This is a library that provides character frequency",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --testEnvironment=node --verbose --forceExit --maxWorkers=1",
+    "test-watch": "jest --testEnvironment=node --verbose --forceExit --watchAll --maxWorkers=1",
+    "test-coverage": "jest --collect-coverage --testEnvironment=node --forceExit --maxWorkers=1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niloaydin/character_frequency.git"
+  },
+  "keywords": [
+    "Character",
+    "Frequency"
+  ],
+  "author": "Nilay Aydin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/niloaydin/character_frequency/issues"
+  },
+  "homepage": "https://github.com/niloaydin/character_frequency#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
