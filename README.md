@@ -2,13 +2,21 @@
 
 # What is it?
 
-This is a library which gets the frequency of the elements both in an Array and a String. Instead of trying to calculate manually, you can use this library.
+This is a library which has two functions and gets the frequency of the elements both of an Array and a String.
+The first function ```js
+frequencyOfArray()
+
+````
+get the frequency of the elements in an Array. The second function ```js
+frequencyOfString ()
+```
+gets the frequency of elements in a String. Instead of trying to calculate of the occurance of characters manually, you can use this library.
 
 ## Installation
 
 ```sh
 $ npm i character-frequency
-```
+````
 
 ## Usage
 
