@@ -5,7 +5,7 @@
 # What is it?
 
 This is a library which has two functions and gets the frequency of the elements of both an Array and a String.
-The first function `frequencyOfArray()` gets the frequency of the elements in an Array. The second function `frequencyOfString ()` gets the frequency of elements in a String. Instead of trying to calculate of the occurance of characters manually, you can use this library.
+The first function `frequencyOfArray()` gets the frequency of the elements in an Array. The second function `frequencyOfString ()` gets the frequency of elements in a String. Instead of trying to calculate of the occurence of characters manually, you can use this library.
 
 ## Installation
 
