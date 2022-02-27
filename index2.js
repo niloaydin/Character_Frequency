@@ -13,4 +13,3 @@ function frequencyOfString(message) {
 }
 
 module.exports = frequencyOfString;
-//
