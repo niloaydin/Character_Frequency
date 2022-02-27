@@ -1,5 +1,7 @@
 # character-frequency
 
+[![Coverage Status](https://coveralls.io/repos/github/niloaydin/character-frequency/badge.svg?branch=main)](https://coveralls.io/github/niloaydin/character-frequency?branch=main)
+
 # What is it?
 
 This is a library which has two functions and gets the frequency of the elements of both an Array and a String.
