@@ -1,6 +1,6 @@
 {
   "name": "character-frequency",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a library that provides character frequency",
   "main": "index.js",
   "scripts": {
