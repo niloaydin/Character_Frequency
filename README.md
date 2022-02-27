@@ -2,8 +2,8 @@
 
 # What is it?
 
-This is a library which has two functions and gets the frequency of the elements both of an Array and a String.
-The first function `frequencyOfArray()` get the frequency of the elements in an Array. The second function `frequencyOfString ()` gets the frequency of elements in a String. Instead of trying to calculate of the occurance of characters manually, you can use this library.
+This is a library which has two functions and gets the frequency of the elements of both an Array and a String.
+The first function `frequencyOfArray()` gets the frequency of the elements in an Array. The second function `frequencyOfString ()` gets the frequency of elements in a String. Instead of trying to calculate of the occurance of characters manually, you can use this library.
 
 ## Installation
 
@@ -14,8 +14,8 @@ $ npm i character-frequency
 ## Usage
 
 ```js
-const frequencyOfArray = require("./index");
-const frequencyOfString = require("./index2");
+const frequencyOfArray = require("character-frequency");
+const frequencyOfString = require("character-frequency");
 
 const result = frequencyOfArray([1, 2, 3, 4, 4, 4, 5, 5, 9]);
 
