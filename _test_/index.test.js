@@ -28,13 +28,3 @@ it("Should throw an error when it's not given a parameter", () => {
     freqOfArray6;
   }).toThrow(new Error("You need to pass an array"));
 });
-
-// it("Should throw an error when it's not given an array", () => {
-//   const freqOfString6 = frequencyOfArray([null]);
-//   expect(freqOfString6).toEqual(undefined);
-// });
-
-// it("Should throw an error when it's not given an array", () => {
-//   const freqOfString7 = frequencyOfArray([undefined]);
-//   expect(freqOfString7).toThrow(new Error("You need to pass an array"));
-// });
