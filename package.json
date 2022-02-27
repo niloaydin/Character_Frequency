@@ -12,18 +12,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/niloaydin/character_frequency.git"
+    "url": "git+https://github.com/niloaydin/character-frequency.git"
   },
   "keywords": [
     "Character",
-    "Frequency"
+    "Frequency",
+    "Array",
+    "String"
   ],
   "author": "Nilay Aydin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/niloaydin/character_frequency/issues"
+    "url": "https://github.com/niloaydin/character-frequency/issues"
   },
-  "homepage": "https://github.com/niloaydin/character_frequency#readme",
+  "homepage": "https://github.com/niloaydin/character-frequency#readme",
   "devDependencies": {
     "coveralls": "^3.1.1",
     "jest": "^27.5.1"
