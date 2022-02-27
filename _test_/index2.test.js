@@ -1,4 +1,4 @@
-const frequencyOfString = require("../main");
+const frequencyOfString = require("../index2");
 
 it("Should get the frequency of the element of the string", () => {
   const freqOfString2 = frequencyOfString("banana");
