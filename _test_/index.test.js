@@ -16,15 +16,14 @@ it("Should get the frequency of the stringed elements in an array", () => {
 });
 
 it("Should throw an error when it's not given an array", () => {
-  const freqOfArray5 = frequencyOfArray(1234);
+  const hello = null;
   expect(() => {
-    freqOfArray5;
+    frequencyOfArray(hello);
   }).toThrow(new Error("You need to pass an array"));
 });
 
 it("Should throw an error when it's not given a parameter", () => {
-  const freqOfArray6 = frequencyOfArray();
   expect(() => {
-    freqOfArray6;
+    frequencyOfArray();
   }).toThrow(new Error("You need to pass an array"));
 });

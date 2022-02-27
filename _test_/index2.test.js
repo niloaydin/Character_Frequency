@@ -36,15 +36,14 @@ it("Should get the frequency of the element of the string and should be case ins
 });
 
 it("Should throw an error when the parameter is not a string", () => {
-  const freqOfString7 = frequencyOfString(hello);
+  const hello = null;
   expect(() => {
-    freqOfString7;
+    frequencyOfString(hello);
   }).toThrow(Error);
 });
 
 it("Should throw an error when no parameter is passed", () => {
-  const freqOfString8 = frequencyOfString();
   expect(() => {
-    freqOfString8;
+    frequencyOfString();
   }).toThrow(Error);
 });
